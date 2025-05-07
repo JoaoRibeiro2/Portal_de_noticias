@@ -30,3 +30,17 @@
 
 }
 
+
+#most-read{
+    margin-block: 80px;
+    figcaption{
+        position: relative;
+        overflow: hidden;
+        max-width: 292px;
+        span{
+            position: absolute;
+            left: 8px;
+            top: 8px;
+        }
+    }
+}

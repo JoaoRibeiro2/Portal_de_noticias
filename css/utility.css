@@ -12,6 +12,10 @@
     gap: 16px;
 }
 
+.gap-32{
+    gap: 32px;
+}
+
 .text-2xl{
     font: var(--h1);
 }
@@ -23,4 +27,21 @@
 }
 .text-small{
     font: var(--text-sm);
+}
+
+.section{
+    border-top: solid 1px var(--stroke-color);
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 12px 24px;
+    font: var(--text-span);
+    color: var(--text-secondary);
+    img{
+        vertical-align: middle;
+    }
 }
