@@ -41,12 +41,9 @@
     margin-block: 12px 24px;
     font: var(--text-span);
     color: var(--text-secondary);
-    span{
+    a span{
         background-image: url('../assets/ArrowRight.svg');
         width: 16px;
-        aspect-ratio: 1/1;
-    }
-    &:hover span{
-        background-image: url('../assets/ArrowRight-hover.svg');
+        height: 16px;
     }
 }
