@@ -44,3 +44,18 @@
         }
     }
 }
+
+.ia{
+    h3{
+        font: var(--h3);
+    }
+    p{
+        font: var(--text-sm);
+    }
+    img{
+        width: 176px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+}

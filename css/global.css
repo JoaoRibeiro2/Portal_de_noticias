@@ -20,7 +20,7 @@
     --h3: 800 14px/140% var(--font-family);
     --text-span: 600 16/145% var(--font-family);
     --text: 400 16/140% var(--font-family);
-    --text-sm: 400 144/160% var(--font-family);
+    --text-sm: 400 14px/160% var(--font-family);
 }
 
 body{

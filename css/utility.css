@@ -33,7 +33,7 @@
     border-top: solid 1px var(--stroke-color);
 }
 
-.top-bar{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,7 +41,12 @@
     margin-block: 12px 24px;
     font: var(--text-span);
     color: var(--text-secondary);
-    img{
-        vertical-align: middle;
+    span{
+        background-image: url('../assets/ArrowRight.svg');
+        width: 16px;
+        aspect-ratio: 1/1;
+    }
+    &:hover span{
+        background-image: url('../assets/ArrowRight-hover.svg');
     }
 }
